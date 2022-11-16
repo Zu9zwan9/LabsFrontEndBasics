@@ -12,57 +12,17 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 :root {
     --container-width: 1270px;
     --container-padding: 20px;
     --secondary: rgba(0, 0, 0, 0.5);
 }
-
-/*body {*/
-/*    line-height: 25px;*/
-/*    font-size: 16px;*/
-/*    font-family: "Roboto", sans-serif;*/
-/*    font-weight: 400;*/
-/*    color: #7b838a;*/
-/*}*/
-
-/*.none {*/
-/*    display: none !important;*/
-/*}*/
-
-/*.container {*/
-/*    max-width: var(--container-width);*/
-/*    padding: 0 var(--container-padding);*/
-/*    margin: 0 auto;*/
-/*}*/
-
-/*.container-carousel {*/
-
-/*}*/
-
-/*.block {*/
-/*    height: 200px;*/
-/*    background-color: #fff;*/
-/*}*/
-
-/* header */
-/*.header {*/
-/*    height: 100vh;*/
-/*    width: 100%;*/
-/*    -webkit-background-size: cover;*/
-/*    background: url("../img/banner/home-banner.jpg") no-repeat center;*/
-/*}*/
 .header_area {
     position: absolute;
     width: 100%;
     z-index: 99;
     transition: background 0.4s, all 0.3s linear;
-
 }
-
-
 .header_area .navbar .nav .nav-item .nav-link {
     font: 500 14px/80px "Rubik", sans-serif;
     text-transform: capitalize;
@@ -88,47 +48,14 @@
     width: 100%;
 }
 
-/*.header:after {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*    height: 100px;*/
-/*}*/
-
-/*.header_top {*/
-/*    margin-bottom: 86px;*/
-/*}*/
-
-/*.header_content {*/
-/*    display: inline;*/
-/*    align-items: center;*/
-/*    max-width: 592px;*/
-/*}*/
-
-/*!* NAV*!*/
-/*.nav {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*    column-gap: 80px;*/
-/*    padding-right: 15px;*/
-/*    padding-left: 15px;*/
-/*    margin-right: auto;*/
-/*    margin-left: auto;*/
-
-/*}*/
 
 /*.nav_logo {*/
 .navbar-expand-lg {
     flex-wrap: nowrap;
-    /*padding-bottom: 188px;*/
     justify-content: flex-end;
     margin-right: 10px;
 }
 
-/*}*/
 
 .header_badge, .header_title {
     font-family: "Rubik", sans-serif;
