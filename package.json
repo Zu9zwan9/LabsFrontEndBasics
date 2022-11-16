@@ -1,0 +1,10 @@
+{
+  "name": "laboratorywork8",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "jquery": "^3.6.1",
+    "ngrok": "^4.3.3"
+  }
+}
